@@ -70,7 +70,6 @@ header{
 
 
 .btn{
-    border: 1;
     background: rgb(49,211,92);
     background: linear-gradient(90deg, rgba(49,211,92,1) 35%, rgba(43,183,218,1) 100%);
     text-decoration: none;
@@ -266,6 +265,13 @@ footer{
     margin: 40px 5px 0px 5px;
 }
 
+.social{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
 
 .footer .social ul li a{
     margin-bottom: 0;
@@ -295,6 +301,7 @@ footer{
 .footerbtn{
     text-align: right;
     align-items: center;
+    padding-top: 30px;
 }
 
 .footerbtn p{
