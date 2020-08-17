@@ -263,7 +263,23 @@ footer{
 }
 
 .social-media img{
-    margin: 40px 5px 20px 5px;
+    margin: 40px 5px 0px 5px;
+}
+
+
+.footer .social ul li a{
+    margin-bottom: 0;
+    position: relative;
+}
+
+.footer .social ul li a:hover:after{
+    content: "";
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    background-color: hsl(136, 65%, 51%);;
 }
 
 .about2 a{
