@@ -98,12 +98,12 @@
         height: 500px;
         position: relative;
     }
-
-    .intro .intro-bg img{
+.intro .intro-bg img{
         height: 450px;
         top: 0;
         right: auto;
         left: 7.5%;
+    
     }
 
     .cards{
@@ -161,4 +161,12 @@
     .footerbtn p{
         margin-top: 20px;
     }
+}
+
+@media (max-width: 375px){
+    .intro .intro-bg img{
+        height: 450px;
+        top: 0;
+        right: auto;
+        left: auto;
 }
